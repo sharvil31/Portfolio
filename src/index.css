@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Inter", sans-serif;
+  background: #000000;
+  font-optical-sizing: auto;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+.bg-img {
+  background-image: url("./assets/jason-root.webp");
+}
+
+#work,
+#about,
+#experience,
+#contact {
+  scroll-margin-top: 5rem;
+}
+
+.spinning-border {
+  background: radial-gradient(
+    rgb(0, 204, 255),
+    rgb(0, 64, 255),
+    rgb(197, 9, 244),
+    rgb(194, 11, 11)
+  );
+
+  position: absolute;
+  z-index: -30;
+  inset: 0;
+  animation: spin 5s linear infinite;
+ scale: 17;
+}
+
+@media (max-width: 768px) {
+  .spinning-border {
+    scale: 11;
+  }
+}
+
+@media (max-width: 550px) {
+  .spinning-border {
+    scale: 8;
+  }
+}
+
+@media (max-width: 400px) {
+  .spinning-border {
+    scale: 6;
+  }
+}
+
+@keyframes spin {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
