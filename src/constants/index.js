@@ -22,15 +22,22 @@ export const HERO_CONTENT = {
   description:
     "My goal is to master the art of front end development, constantly honing my skills in front-end technologies & frameworks",
   resumeLinkText: "Download Resume",
-  resumeLink: "/SharvilResume.pdf",
+  resumeLink: "/Sharvil_Resume.pdf",
 };
 
 
 export const PROJECTS = [
   {
+    name: "Personal Portfolio Website",
+    description: "Portfolio with interactive animations and a responsive design.",
+    image: projects3,
+    githubLink: "https://github.com/sharvil31/Portfolio",
+    liveLink: "https://sharvil-portfolio.netlify.app/"
+  }, 
+  {
     name: "REST Countries API",
     description: "Fetch and display country data dynamically.",
-    image: projects5,
+    image: projects4,
     githubLink: "https://github.com/sharvil31/Rest-countries",
     liveLink: "https://rest-countries-api-by-sharvil.netlify.app/"
   }, 
