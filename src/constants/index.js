@@ -28,6 +28,20 @@ export const HERO_CONTENT = {
 
 export const PROJECTS = [
   {
+    name: "Tic Tac Toe Game",
+    description: "Play against other player or against computer",
+    image: projects1,
+    githubLink: "https://github.com/sharvil31/Tic-Tac-Toe-Game",
+    liveLink: "https://tic-tac-toe-game-by-sharvil31.netlify.app"
+  }, 
+  {
+    name: "Task Manager App",
+    description: "Perform CRUD, search & sort operations on new or existing tasks",
+    image: projects2,
+    githubLink: "https://github.com/sharvil31/Task-Manager",
+    liveLink: "https://task-manager-app-by-sharvil31.netlify.app/"
+  }, 
+  {
     name: "Personal Portfolio Website",
     description: "Portfolio with interactive animations and a responsive design.",
     image: projects3,
