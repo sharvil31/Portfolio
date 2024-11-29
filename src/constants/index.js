@@ -22,7 +22,7 @@ export const HERO_CONTENT = {
   description:
     "My goal is to master the art of front end development, constantly honing my skills in front-end technologies & frameworks",
   resumeLinkText: "Download Resume",
-  resumeLink: "/Sharvil_Resume.pdf",
+  resumeLink: "dist/Sharvil Resume.pdf",
 };
 
 
