@@ -22,36 +22,50 @@ export const HERO_CONTENT = {
   description:
     "My goal is to master the art of front end development, constantly honing my skills in front-end technologies & frameworks",
   resumeLinkText: "Download Resume",
-  resumeLink: "/Sharvil Resume.pdf",
+  resumeLink: "/Sharvil-Resume.pdf",
 };
 
 
 export const PROJECTS = [
   {
+    name: "Luna AI chat app",
+    description: "Chat with AI model to get answers to your every question",
+    image: projects1,
+    githubLink: "https://github.com/sharvil31/Luna-AI-chat-app",
+    liveLink: "https://luna-ai-chat-app.vercel.app/login"
+  },
+  {
+    name: "cineworld movie app",
+    description: "Search for Movies and TV Shows. view details, watch trailers and clips",
+    image: projects2,
+    githubLink: "https://github.com/sharvil31/cineworld-Movie-App",
+    liveLink: "https://cineworld-movie-app.vercel.app/"
+  }, 
+  {
     name: "Tic Tac Toe Game",
     description: "Play against other player or against computer",
-    image: projects1,
+    image: projects3,
     githubLink: "https://github.com/sharvil31/Tic-Tac-Toe-Game",
     liveLink: "https://tic-tac-toe-game-by-sharvil31.netlify.app"
   }, 
   {
     name: "Task Manager App",
     description: "Perform CRUD, search & sort operations on new or existing tasks",
-    image: projects2,
+    image: projects4,
     githubLink: "https://github.com/sharvil31/Task-Manager",
     liveLink: "https://task-manager-app-by-sharvil31.netlify.app/"
   }, 
   {
     name: "Personal Portfolio Website",
     description: "Portfolio with interactive animations and a responsive design.",
-    image: projects3,
+    image: projects5,
     githubLink: "https://github.com/sharvil31/Portfolio",
     liveLink: "https://sharvil-portfolio.netlify.app/"
   }, 
   {
     name: "REST Countries API",
     description: "Fetch and display country data dynamically.",
-    image: projects4,
+    image: projects6,
     githubLink: "https://github.com/sharvil31/Rest-countries",
     liveLink: "https://rest-countries-api-by-sharvil.netlify.app/"
   }, 
