@@ -80,12 +80,12 @@ export const ABOUT_CONTENT = {
 
 export const EXPERIENCES = [
   {
-    yearRange: "November 2024 — October 2024",
-    title: "Web Developer Intern at Prodigy Infotech",
+    yearRange: "January 2025 — Present",
+    title: "Front End Developer Intern at Tastezy",
     location: "Remote",
     description: [
-      "Completed web development tasks ranging from low to high level.",
-      "Gained hands-on experience & develop valuable skills",
+      "Collaborating with team to build web applications",
+      "Gaining hands-on experience & developing valuable skills",
       "Driving innovation through continuous improvements in performance and UI/UX design.",
     ],
   },
